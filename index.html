@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/icons/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Music Player</title>
+</head>
+<body> 
+             
+    <main> <!--Conteúdos Principais-->
+        <section>
+            <div>
+                <h2>Playlist | Cleyton</h2> 
+                <p>My favorite songs</p>
+                        <div class="app-wrapper">
+                            <div class="player">
+                                <audio id="music-player"></audio>
+                                <div id="song-image" class="song-img" style="background-image: url('./assets/images/m2.jpg');">
+                                </div>
+                                <div class="song-details">
+                                    <h2 id="song-title">Lorem ipsum dolors</h2>
+                                    <h3 id="song-artist">By MixKit</h3>
+                               
+                                <div class="player-controls">
+                                    <button id="prev-btn" class="skip-btn"><i class="fas fa-backward fa-lg"></i></button>
+                                    <button id="play-btn" class="play"><i id="play-icon" class="fas fa-play fa-2x"></i></button>
+                                    <button id="next-btn" class="skip-btn"><i class="fas fa-forward fa-lg"></i></button>
+                                </div>
+                                <div class="next-up">
+                                    <marquee behavior="scroll" direction="right"> Próxima música: <span id="song-next-up">Lorem ipsum dolors</span></marquee>             
+        </section>
+    </main>
+<script src="./assets/main.js"></script>
+</body>
+</html>
